@@ -5,13 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   console.log("asdads")
 
-  res.render('index', { 
-    title: 'Hola mundo2',
-  name:'Pablo',
-  lastname:'Rodriguez',
-  dni:'31.862.971',
-  section:'4',
-});
+  res.render('index', { title: 'Hola mundo2',});
 });
 
 module.exports = router;
