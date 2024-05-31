@@ -17,7 +17,6 @@ body{
   position: relative;
   width: 100%;
   min-width: 1000px;
-  max-height: 1000px;
   background: #fff;
   margin: 50px;
   display: grid;
@@ -246,4 +245,14 @@ p{
 .inter ul{
   grid-template-columns: repeat(2,1fr);
 }
+}
+
+
+.form-group {
+  padding: 1rem;
+}
+
+.btn {
+  margin: 1rem;
+  width: 96%;
 }
