@@ -65,12 +65,7 @@ class ContactosController {
                 else {
                     this.encapsulacion.sv(name, email, message, ip, date, country);
                     res.send({
-                        name: name,
-                        email: email,
-                        message: message,
-                        ip: ip,
-                        date: date,
-                        country: country,
+                        successful: 'Message sent successfully!'
                     });
                 }
 
